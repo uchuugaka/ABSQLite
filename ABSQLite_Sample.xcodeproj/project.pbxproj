@@ -39,6 +39,7 @@
 		8959D780177E171400CFD877 /* NSString+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959D768177CCF3200CFD877 /* NSString+Additions.m */; };
 		8959D781177E171400CFD877 /* HomeSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959D76E177DAA0200CFD877 /* HomeSplitViewController.m */; };
 		8959D784177F08AC00CFD877 /* LocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8959D783177F08AB00CFD877 /* LocationCell.m */; };
+		8968C554178EF49800C091AE /* ABSQLite_Sample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8959D709177CCB8700CFD877 /* ABSQLite_Sample-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -302,6 +303,7 @@
 				8959D716177CCB8700CFD877 /* Default@2x.png in Resources */,
 				8959D718177CCB8700CFD877 /* Default-568h@2x.png in Resources */,
 				8959D71B177CCB8700CFD877 /* MainStoryboard.storyboard in Resources */,
+				8968C554178EF49800C091AE /* ABSQLite_Sample-Info.plist in Resources */,
 				8959D76C177CD7AA00CFD877 /* ABLocations.txt in Resources */,
 				8959D770177DAA3A00CFD877 /* ABReports.txt in Resources */,
 			);
@@ -422,8 +424,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StressTest/ABSQLite_Sample-Prefix.pch";
-				INFOPLIST_FILE = "StressTest/ABSQLite_Sample-Info.plist";
+				GCC_PREFIX_HEADER = "Sample/ABSQLite_Sample-Prefix.pch";
+				INFOPLIST_FILE = "Sample/ABSQLite_Sample-Info.plist";
 				PRODUCT_NAME = ABSQLite_Sample;
 				WRAPPER_EXTENSION = app;
 			};
@@ -433,8 +435,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "StressTest/ABSQLite_Sample-Prefix.pch";
-				INFOPLIST_FILE = "StressTest/ABSQLite_Sample-Info.plist";
+				GCC_PREFIX_HEADER = "Sample/ABSQLite_Sample-Prefix.pch";
+				INFOPLIST_FILE = "Sample/ABSQLite_Sample-Info.plist";
 				PRODUCT_NAME = ABSQLite_Sample;
 				WRAPPER_EXTENSION = app;
 			};

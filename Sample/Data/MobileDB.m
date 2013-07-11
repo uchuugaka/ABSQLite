@@ -8,7 +8,6 @@
 
 #import "MobileDB.h"
 #import "ABSQLiteDB.h"
-#import "ABRecordset.h"
 #import "ABLocation.h"
 #import "NSString+Additions.h"
 

@@ -5,7 +5,7 @@ There is a full example included that shows how the classes are used.
 
 Quick start:
 Copy the required files to your project
-#import "ABSQLiteDB.h
+import "ABSQLiteDB.h
 
 ABDatabase methods of interest:
 (BOOL) connect:(NSString*)uri

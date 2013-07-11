@@ -87,7 +87,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 }
 
 -(void) explainCommand:(NSString*) command {
-	return;
+//	return;
 	
 	char *zExplain;                 /* SQL with EXPLAIN QUERY PLAN prepended */
 	sqlite3_stmt *pExplain;         /* Compiled EXPLAIN QUERY PLAN command */
@@ -107,6 +107,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 		
 		NSLog([NSString stringWithFormat:@"%d %d %d %s\n=================================================\n\n",iSelectid, iOrder, iFrom, zDetail]);
 	}
+	sqlite3_finalize(pExplain);
 }
 
 

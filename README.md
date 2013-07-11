@@ -1,15 +1,13 @@
-ABSQLite is a different wrapper to SQLite for Objective-C.
+#ABSQLite is an Objective-C wrapper to SQLite.  
 
-There are 3 classes that conform to the ABDatabaseProtocols
+There are 3 classes that conform to the ABDatabaseProtocols  
+There is a full example included that shows how the classes are used.  
 
-There is a full example included that shows how the classes are used.
+##Quick start:  
+Copy the required files to your project  
+import "ABSQLiteDB.h  
 
-Quick start:
-Copy the required files to your project
-
-import "ABSQLiteDB.h
-
-ABDatabase methods of interest:
+*ABDatabase methods of interest:
 - (BOOL) connect:(NSString*)uri
 - (void) beginTransaction
 - (void) rollback
@@ -17,11 +15,11 @@ ABDatabase methods of interest:
 - (void) sqlExecute:(NSString*)sql
 - (id<ABRecordset>) sqlSelect:(NSString*)sql
 
-ABRecordset methods of interest:
+*ABRecordset methods of interest:
 - (BOOL) eof
 - (id<ABField>) fieldWithName:(NSString*)fieldName;
 
-ABField methods of interest:
+*ABField methods of interest:
 - (NSString*) name;
 - (BOOL) isNull;
 - (BOOL) booleanValue;

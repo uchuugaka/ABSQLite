@@ -1,4 +1,4 @@
-#ABSQLite is an Objective-C wrapper to SQLite.  
+#ABSQLite is an Objective-C wrapper to SQLite making it easy to use the database.
 
 There are 3 classes that conform to the ABDatabaseProtocols  
 There is a full example included that shows how the classes are used.  
@@ -30,5 +30,8 @@ import "ABSQLiteDB.h
 - (long long int) longLongValue;
 - (NSData*) rawValue;
 
-For some sample use, see the MobileDB class included in the project.
+Example included.
 
+## License
+
+ABSQLite is available under the MIT license. See the LICENSE file for more info.

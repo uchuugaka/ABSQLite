@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D42E6A8A-49B2-4F4A-9A80-9BCC58F2E5D9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ABSQLite_Sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>989AAA2C-8C3E-47A2-B357-4CFCC6C2ED2C</key>
+		<string>https://github.com/AaronBratcher/ABSQLite.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Example/ABSQLite_Sample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>989AAA2C-8C3E-47A2-B357-4CFCC6C2ED2C</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/AaronBratcher/ABSQLite.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>989AAA2C-8C3E-47A2-B357-4CFCC6C2ED2C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>989AAA2C-8C3E-47A2-B357-4CFCC6C2ED2C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ABSQLite</string>
+		</dict>
+	</array>
+</dict>
+</plist>

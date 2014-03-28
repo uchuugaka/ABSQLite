@@ -10,12 +10,6 @@
 		8959D702177CCB8700CFD877 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8959D701177CCB8700CFD877 /* UIKit.framework */; };
 		8959D704177CCB8700CFD877 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8959D703177CCB8700CFD877 /* Foundation.framework */; };
 		8959D706177CCB8700CFD877 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8959D705177CCB8700CFD877 /* CoreGraphics.framework */; };
-		8959D70C177CCB8700CFD877 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8959D70A177CCB8700CFD877 /* InfoPlist.strings */; };
-		8959D714177CCB8700CFD877 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8959D713177CCB8700CFD877 /* Default.png */; };
-		8959D716177CCB8700CFD877 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8959D715177CCB8700CFD877 /* Default@2x.png */; };
-		8959D718177CCB8700CFD877 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8959D717177CCB8700CFD877 /* Default-568h@2x.png */; };
-		8959D71B177CCB8700CFD877 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8959D719177CCB8700CFD877 /* MainStoryboard.storyboard */; };
-		8968C554178EF49800C091AE /* ABSQLite_Sample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8959D709177CCB8700CFD877 /* ABSQLite_Sample-Info.plist */; };
 		89B205BE18E5B5CC00FA212E /* ABLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B205A618E5B5CC00FA212E /* ABLocation.m */; };
 		89B205BF18E5B5CC00FA212E /* ABReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B205A818E5B5CC00FA212E /* ABReport.m */; };
 		89B205C018E5B5CC00FA212E /* DataServices.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B205AA18E5B5CC00FA212E /* DataServices.m */; };
@@ -36,6 +30,13 @@
 		89B205DA18E5B65B00FA212E /* ABLocations.txt in Resources */ = {isa = PBXBuildFile; fileRef = 89B205D818E5B65B00FA212E /* ABLocations.txt */; };
 		89B205DB18E5B65B00FA212E /* ABReports.txt in Resources */ = {isa = PBXBuildFile; fileRef = 89B205D918E5B65B00FA212E /* ABReports.txt */; };
 		89B205DD18E5B67100FA212E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B205DC18E5B67100FA212E /* main.m */; };
+		89B2061918E5D43D00FA212E /* ABSQLiteDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2061418E5D43D00FA212E /* ABSQLiteDB.m */; };
+		89B2061A18E5D43D00FA212E /* ABSQLiteField.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2061618E5D43D00FA212E /* ABSQLiteField.m */; };
+		89B2061B18E5D43D00FA212E /* ABSQLiteRecordset.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B2061818E5D43D00FA212E /* ABSQLiteRecordset.m */; };
+		89B2061D18E5D45C00FA212E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B2061C18E5D45C00FA212E /* libsqlite3.dylib */; };
+		89B2062018E5D48300FA212E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B2061E18E5D48300FA212E /* MainStoryboard.storyboard */; };
+		89B2062318E5D49500FA212E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 89B2062118E5D49500FA212E /* InfoPlist.strings */; };
+		89B2062518E5D50C00FA212E /* ABSQLite_Sample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 89B2062418E5D50C00FA212E /* ABSQLite_Sample-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,14 +44,7 @@
 		8959D701177CCB8700CFD877 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8959D703177CCB8700CFD877 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8959D705177CCB8700CFD877 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		8959D709177CCB8700CFD877 /* ABSQLite_Sample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABSQLite_Sample-Info.plist"; sourceTree = "<group>"; };
-		8959D70B177CCB8700CFD877 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8959D70F177CCB8700CFD877 /* ABSQLite_Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABSQLite_Sample-Prefix.pch"; sourceTree = "<group>"; };
 		8959D710177CCB8700CFD877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = SOURCE_ROOT; };
-		8959D713177CCB8700CFD877 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8959D715177CCB8700CFD877 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8959D717177CCB8700CFD877 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		8959D71A177CCB8700CFD877 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		89B205A518E5B5CC00FA212E /* ABLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABLocation.h; sourceTree = "<group>"; };
 		89B205A618E5B5CC00FA212E /* ABLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABLocation.m; sourceTree = "<group>"; };
 		89B205A718E5B5CC00FA212E /* ABReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABReport.h; sourceTree = "<group>"; };
@@ -87,6 +81,20 @@
 		89B205D818E5B65B00FA212E /* ABLocations.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABLocations.txt; sourceTree = SOURCE_ROOT; };
 		89B205D918E5B65B00FA212E /* ABReports.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ABReports.txt; sourceTree = SOURCE_ROOT; };
 		89B205DC18E5B67100FA212E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = SOURCE_ROOT; };
+		89B2060F18E5D43D00FA212E /* ABDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABDatabase.h; sourceTree = "<group>"; };
+		89B2061018E5D43D00FA212E /* ABField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABField.h; sourceTree = "<group>"; };
+		89B2061118E5D43D00FA212E /* ABRecordset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABRecordset.h; sourceTree = "<group>"; };
+		89B2061318E5D43D00FA212E /* ABSQLiteDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSQLiteDB.h; sourceTree = "<group>"; };
+		89B2061418E5D43D00FA212E /* ABSQLiteDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSQLiteDB.m; sourceTree = "<group>"; };
+		89B2061518E5D43D00FA212E /* ABSQLiteField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSQLiteField.h; sourceTree = "<group>"; };
+		89B2061618E5D43D00FA212E /* ABSQLiteField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSQLiteField.m; sourceTree = "<group>"; };
+		89B2061718E5D43D00FA212E /* ABSQLiteRecordset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABSQLiteRecordset.h; sourceTree = "<group>"; };
+		89B2061818E5D43D00FA212E /* ABSQLiteRecordset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABSQLiteRecordset.m; sourceTree = "<group>"; };
+		89B2061C18E5D45C00FA212E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		89B2061F18E5D48300FA212E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = SOURCE_ROOT; };
+		89B2062218E5D49500FA212E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		89B2062418E5D50C00FA212E /* ABSQLite_Sample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ABSQLite_Sample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		89B2062618E5D51500FA212E /* ABSQLite_Sample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABSQLite_Sample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B2061D18E5D45C00FA212E /* libsqlite3.dylib in Frameworks */,
 				8959D702177CCB8700CFD877 /* UIKit.framework in Frameworks */,
 				8959D704177CCB8700CFD877 /* Foundation.framework in Frameworks */,
 				8959D706177CCB8700CFD877 /* CoreGraphics.framework in Frameworks */,
@@ -123,6 +132,7 @@
 		8959D700177CCB8700CFD877 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				89B2061C18E5D45C00FA212E /* libsqlite3.dylib */,
 				8959D701177CCB8700CFD877 /* UIKit.framework */,
 				8959D703177CCB8700CFD877 /* Foundation.framework */,
 				8959D705177CCB8700CFD877 /* CoreGraphics.framework */,
@@ -133,10 +143,11 @@
 		8959D707177CCB8700CFD877 /* ABSQLite_Sample */ = {
 			isa = PBXGroup;
 			children = (
+				89B2060D18E5D43D00FA212E /* ABSQLiteClasses */,
 				89B205A418E5B5CC00FA212E /* Data */,
+				89B2061E18E5D48300FA212E /* MainStoryboard.storyboard */,
 				8959D710177CCB8700CFD877 /* AppDelegate.h */,
 				89B205CA18E5B5FE00FA212E /* AppDelegate.m */,
-				8959D719177CCB8700CFD877 /* MainStoryboard.storyboard */,
 				89B205CC18E5B62C00FA212E /* HomeSplitViewController.h */,
 				89B205CD18E5B62C00FA212E /* HomeSplitViewController.m */,
 				89B205CF18E5B63A00FA212E /* LocationsViewController.h */,
@@ -157,12 +168,9 @@
 				89B205D818E5B65B00FA212E /* ABLocations.txt */,
 				89B205D918E5B65B00FA212E /* ABReports.txt */,
 				89B205DC18E5B67100FA212E /* main.m */,
-				8959D709177CCB8700CFD877 /* ABSQLite_Sample-Info.plist */,
-				8959D70A177CCB8700CFD877 /* InfoPlist.strings */,
-				8959D70F177CCB8700CFD877 /* ABSQLite_Sample-Prefix.pch */,
-				8959D713177CCB8700CFD877 /* Default.png */,
-				8959D715177CCB8700CFD877 /* Default@2x.png */,
-				8959D717177CCB8700CFD877 /* Default-568h@2x.png */,
+				89B2062118E5D49500FA212E /* InfoPlist.strings */,
+				89B2062618E5D51500FA212E /* ABSQLite_Sample-Prefix.pch */,
+				89B2062418E5D50C00FA212E /* ABSQLite_Sample-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,6 +212,38 @@
 				89B205BB18E5B5CC00FA212E /* NSString+Additions.m */,
 			);
 			path = JSONCoding;
+			sourceTree = "<group>";
+		};
+		89B2060D18E5D43D00FA212E /* ABSQLiteClasses */ = {
+			isa = PBXGroup;
+			children = (
+				89B2060E18E5D43D00FA212E /* abDatabaseProtocols */,
+				89B2061218E5D43D00FA212E /* abSQLite */,
+			);
+			path = ABSQLiteClasses;
+			sourceTree = SOURCE_ROOT;
+		};
+		89B2060E18E5D43D00FA212E /* abDatabaseProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				89B2060F18E5D43D00FA212E /* ABDatabase.h */,
+				89B2061018E5D43D00FA212E /* ABField.h */,
+				89B2061118E5D43D00FA212E /* ABRecordset.h */,
+			);
+			path = abDatabaseProtocols;
+			sourceTree = "<group>";
+		};
+		89B2061218E5D43D00FA212E /* abSQLite */ = {
+			isa = PBXGroup;
+			children = (
+				89B2061318E5D43D00FA212E /* ABSQLiteDB.h */,
+				89B2061418E5D43D00FA212E /* ABSQLiteDB.m */,
+				89B2061518E5D43D00FA212E /* ABSQLiteField.h */,
+				89B2061618E5D43D00FA212E /* ABSQLiteField.m */,
+				89B2061718E5D43D00FA212E /* ABSQLiteRecordset.h */,
+				89B2061818E5D43D00FA212E /* ABSQLiteRecordset.m */,
+			);
+			path = abSQLite;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,14 +297,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8959D70C177CCB8700CFD877 /* InfoPlist.strings in Resources */,
 				89B205DA18E5B65B00FA212E /* ABLocations.txt in Resources */,
-				8959D714177CCB8700CFD877 /* Default.png in Resources */,
-				8959D716177CCB8700CFD877 /* Default@2x.png in Resources */,
-				8959D718177CCB8700CFD877 /* Default-568h@2x.png in Resources */,
+				89B2062318E5D49500FA212E /* InfoPlist.strings in Resources */,
+				89B2062518E5D50C00FA212E /* ABSQLite_Sample-Info.plist in Resources */,
 				89B205DB18E5B65B00FA212E /* ABReports.txt in Resources */,
-				8959D71B177CCB8700CFD877 /* MainStoryboard.storyboard in Resources */,
-				8968C554178EF49800C091AE /* ABSQLite_Sample-Info.plist in Resources */,
+				89B2062018E5D48300FA212E /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +323,10 @@
 				89B205C318E5B5CC00FA212E /* ActiveSupportInflector.m in Sources */,
 				89B205C218E5B5CC00FA212E /* DownloadReportsOperation.m in Sources */,
 				89B205BF18E5B5CC00FA212E /* ABReport.m in Sources */,
+				89B2061A18E5D43D00FA212E /* ABSQLiteField.m in Sources */,
 				89B205C518E5B5CC00FA212E /* JSONEncoder.m in Sources */,
+				89B2061918E5D43D00FA212E /* ABSQLiteDB.m in Sources */,
+				89B2061B18E5D43D00FA212E /* ABSQLiteRecordset.m in Sources */,
 				89B205C718E5B5CC00FA212E /* NSString+ActiveSupportInflector.m in Sources */,
 				89B205C018E5B5CC00FA212E /* DataServices.m in Sources */,
 				89B205C118E5B5CC00FA212E /* DownloadLocationOperation.m in Sources */,
@@ -299,20 +339,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8959D70A177CCB8700CFD877 /* InfoPlist.strings */ = {
+		89B2061E18E5D48300FA212E /* MainStoryboard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8959D70B177CCB8700CFD877 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8959D719177CCB8700CFD877 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8959D71A177CCB8700CFD877 /* en */,
+				89B2061F18E5D48300FA212E /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		89B2062118E5D49500FA212E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89B2062218E5D49500FA212E /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

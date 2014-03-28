@@ -149,7 +149,7 @@
 			);
 			name = ABSQLite_Sample;
 			path = Sample;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		8959D708177CCB8700CFD877 /* Supporting Files */ = {
 			isa = PBXGroup;

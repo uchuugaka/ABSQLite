@@ -138,7 +138,8 @@
 	            eof = YES;
                 
 	            if (dbrc < 100) {
-	                // TODO: throw an exception
+	                NSString *errorMessage = [[NSString alloc] initWithUTF8String:sqlite3_errmsg(db)];
+	                NSLog(@"!!!! SQLite Error (%@) !!!! ", errorMessage);
 				}
 			}
 		}

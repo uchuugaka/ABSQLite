@@ -86,28 +86,28 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 	[self sqlExecute:@"COMMIT TRANSACTION;"];
 }
 
--(void) explainCommand:(NSString*) command {
-	return;
-	
-	char *zExplain;                 /* SQL with EXPLAIN QUERY PLAN prepended */
-	sqlite3_stmt *pExplain;         /* Compiled EXPLAIN QUERY PLAN command */
-	int rc;                         /* Return code from sqlite3_prepare_v2() */
-	
-	zExplain = sqlite3_mprintf("EXPLAIN QUERY PLAN %s", [command UTF8String]);
-	
-	rc = sqlite3_prepare_v2(db, zExplain, -1, &pExplain, 0);
-	sqlite3_free(zExplain);
-	NSLog(@"\n\n.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  \nQuery:%@\n\nAnalysis:\n",command);
-	
-	while( SQLITE_ROW==sqlite3_step(pExplain) ){
-		int iSelectid = sqlite3_column_int(pExplain, 0);
-		int iOrder = sqlite3_column_int(pExplain, 1);
-		int iFrom = sqlite3_column_int(pExplain, 2);
-		const char *zDetail = (const char *)sqlite3_column_text(pExplain, 3);
-		
-		NSLog(@"%d %d %d %s\n=================================================\n\n",iSelectid, iOrder, iFrom, zDetail);
-	}
-}
+//-(void) explainCommand:(NSString*) command {
+//	return;
+//	
+//	char *zExplain;                 /* SQL with EXPLAIN QUERY PLAN prepended */
+//	sqlite3_stmt *pExplain;         /* Compiled EXPLAIN QUERY PLAN command */
+//	int rc;                         /* Return code from sqlite3_prepare_v2() */
+//	
+//	zExplain = sqlite3_mprintf("EXPLAIN QUERY PLAN %s", [command UTF8String]);
+//	
+//	rc = sqlite3_prepare_v2(db, zExplain, -1, &pExplain, 0);
+//	sqlite3_free(zExplain);
+//	NSLog(@"\n\n.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  \nQuery:%@\n\nAnalysis:\n",command);
+//	
+//	while( SQLITE_ROW==sqlite3_step(pExplain) ){
+//		int iSelectid = sqlite3_column_int(pExplain, 0);
+//		int iOrder = sqlite3_column_int(pExplain, 1);
+//		int iFrom = sqlite3_column_int(pExplain, 2);
+//		const char *zDetail = (const char *)sqlite3_column_text(pExplain, 3);
+//		
+//		NSLog(@"%d %d %d %s\n=================================================\n\n",iSelectid, iOrder, iFrom, zDetail);
+//	}
+//}
 
 
 - (void) sqlExecute:(NSString*) command {
@@ -178,7 +178,7 @@ static void distanceFunc(sqlite3_context *context, int argc, sqlite3_value **arg
 
 
 - (void) logEvent:(NSString *)eventText {
-	NSLog(eventText);
+//	NSLog(eventText);
 }
 
 - (int)lastErrorCode {

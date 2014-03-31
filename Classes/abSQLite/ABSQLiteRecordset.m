@@ -144,7 +144,7 @@
 				
 				if (dbrc < 100) {
 					NSString* errorMessage = [[NSString alloc] initWithUTF8String:sqlite3_errmsg(db)];
-					NSLog(@"!!!! SQLite Error (%@) !!!! ",errorMessage);
+//					NSLog(@"!!!! SQLite Error (%@) !!!! ",errorMessage);
 				}
 			}
 		}

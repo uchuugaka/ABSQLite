@@ -143,8 +143,8 @@
 				eof = YES;
 				
 				if (dbrc < 100) {
-					NSString* errorMessage = [[NSString alloc] initWithUTF8String:sqlite3_errmsg(db)];
-//					NSLog(@"!!!! SQLite Error (%@) !!!! ",errorMessage);
+//					NSString* errorMessage = [[NSString alloc] initWithUTF8String:sqlite3_errmsg(db)];
+					NSLog(@"!!!! SQLite Error in moveNext !!!! ");
 				}
 			}
 		}
